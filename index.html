@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Trabajo 5</title>
+  </head>
+  <body>
+
+    <div class="container">
+    <h1>Tarea Diarias</h1>
+    <p>Nueva tarea</p>
+
+   <div>
+    <input id="nuevaTarea" placeholder="ingresa una tarea" type="text" />
+    <button id="agregarTarea">Agregar</button>
+   </div>
+   
+    <div id="contadorTareas">
+      <h3>TOTAL: <span id="totalTarea">0</span></h3>
+      <h3>REALIZADAS: <span id="trealizadas">0</span></h3>
+    </div>
+
+    <div>
+      <table>
+        <thead>
+          <th>id</th>
+          <th>tareas</th>
+          <th>botones</th>
+        </thead>
+        <tbody class="listaTareas">
+        <tr>
+          <td><input onclick="templete()" type="checkbox" name="check"> <button>x</button></td>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+  </body>
+  
+</html>
